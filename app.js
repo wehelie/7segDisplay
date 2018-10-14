@@ -6,6 +6,19 @@ words = words.split('\n')
 
 const avoidLetters = /[gkmqvwxz]/
 
+let longestAcceptedWord = ''
+
+for (var testWord of words) {
+    if (testWord.length <= longestAcceptedWord.length) {
+        continue;
+    }
+
+    if (testWord.match(avoidLetters)) {
+        continue;
+    }
+
+    longestAcceptedWord = testWord;
+}
 
 
-console.log(words)
+console.log(longestAcceptedWord)
