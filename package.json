@@ -1,0 +1,15 @@
+{
+  "name": "7segment-display",
+  "version": "1.0.0",
+  "description": "what is the longest word one can write with 7 segment displays?",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "7",
+    "segment"
+  ],
+  "author": "leyth adan",
+  "license": "ISC"
+}
