@@ -1,3 +1,3 @@
 # Seven-segment display character representations via JavaScript
 
-![Alt](sevn.pdf)
+![Image Title](sevn.pdf){width=65%}
